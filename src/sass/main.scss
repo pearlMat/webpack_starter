@@ -1,0 +1,67 @@
+@import '~aos/dist/aos.css';
+@import '~font-awesome/css/font-awesome.css';
+@import '~@icon/icofont/icofont.css';
+@import '~tiny-slider/src/tiny-slider.scss';
+@import '~boxicons/css/boxicons.min.css';
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~remixicon/fonts/remixicon.css';
+@import '~venobox/venobox/venobox.min.css';
+@import "~bootstrap/scss/bootstrap";
+@import '~animate.css/animate.css';
+
+@import 'variables';
+@import 'mixins';
+@import './shared';
+@import './header';
+@import './home';
+@import 'jobs';
+
+
+
+  
+
+    /*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-top: 80px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #fff;
+  padding: 12px;
+  color: #e03a3c;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 700;
+  color: #111111;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+  

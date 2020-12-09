@@ -1,0 +1,44 @@
+@mixin round-btn {
+    border-radius: 50px;
+	padding: 7px 25px 8px 25px;
+	white-space: nowrap;
+	transition: 0.3s;
+	font-size: 13px;
+	display: inline-block;
+	border: 2px solid #5a5af3;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+@mixin hero-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+    border-radius: 50px;
+    border: 2px solid #5a5af3;
+   // border: 2px solid #545455;
+    margin-right: 10px;
+    
+}
+
+@mixin jobs-btn {
+    font-size: 13px;
+    max-width: fit-content;
+    
+    //letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    //line-height: 1;
+    margin: 0;
+   
+    //display: inline-block;
+    text-transform: uppercase;
+    border-radius: 20px;
+    
+}

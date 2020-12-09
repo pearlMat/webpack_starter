@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------
+# What We Do
+--------------------------------------------------------------*/
+.why-us {
+	.icon-box {
+		text-align: center;
+		width: 500px;
+		padding: 30px 20px;
+		transition: all ease-in-out 0.3s;
+		background: #fff;
+		.icon {
+			margin: 0 auto;
+			width: 64px;
+			height: 64px;
+			background:  #f9f8ff;
+			border-radius: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 20px;
+			transition: ease-in-out 0.3s;
+			i {
+				color: #5846f9;
+				font-size: 28px;
+			}
+		}
+		h4 {
+			font-weight: 700;
+			margin-bottom: 15px;
+			font-size: 24px;
+			a {
+				color: #384046;
+				transition: ease-in-out 0.3s;
+			}
+		}
+		p {
+			line-height: 24px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		&:hover {
+			border-color: #fff;
+			box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+			h4 {
+				a {
+					color: #5846f9;
+				}
+			}
+			.icon {
+				i {
+					color: #5846f9;
+				}
+			}
+		}
+	}
+}
